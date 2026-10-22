@@ -1,13 +1,12 @@
 ﻿[game]
 # Straight in-game baby
-lobbyenabled = false
+lobbyenabled = true
 # Frontier: special map
-map = "NFDev"
+map = "frontier"
 role_timers = false
-role_loadout_timers = false
 
 [events]
-enabled = false
+enabled = true
 
 [ghost]
 role_time = 0.5
@@ -29,7 +28,7 @@ preload = false
 [salvage]
 expedition_cooldown = 30.0
 # Frontier: shorter expeditions
-expedition_duration = 180.0
+expedition_duration = 3600.0
 
 [shuttle]
 grid_fill = false
