@@ -1295,6 +1295,10 @@
       Min: 1
       Max: 5
       PotencyDivisor: 20
+    Desoxyephedrine:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 10
     Vitamin:
       Min: 1
       Max: 2
@@ -1329,6 +1333,10 @@
       Min: 1
       Max: 5
       PotencyDivisor: 20
+    Desoxyephedrine:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 10
 
 - type: seed
   id: galaxythistle
@@ -1375,10 +1383,6 @@
       Min: 1
       Max: 25
       PotencyDivisor: 4
-    Desoxyephedrine: # meff!!
-      Min: 1
-      Max: 10
-      PotencyDivisor: 10
 
 - type: seed
   id: flyAmanita
@@ -1435,10 +1439,10 @@
       Min: 1
       Max: 5
       PotencyDivisor: 20
-  seedless: true # Frontier
-  preventSwabbing: true # Frontier
-  preventClipping: true # Frontier
-  permanentlySeedless: true # Frontier
+  seedless: false # Frontier
+  preventSwabbing: false # Frontier
+  preventClipping: false # Frontier
+  permanentlySeedless: false # Frontier
 
 - type: seed
   id: fakeCapfruit
@@ -1465,10 +1469,10 @@
       Min: 1
       Max: 5
       PotencyDivisor: 20
-  seedless: true # Frontier
-  preventSwabbing: true # Frontier
-  preventClipping: true # Frontier
-  permanentlySeedless: true # Frontier
+  seedless: false # Frontier
+  preventSwabbing: false # Frontier
+  preventClipping: false # Frontier
+  permanentlySeedless: false # Frontier
 
 - type: seed
   id: realCapfruit
@@ -1495,11 +1499,11 @@
       Min: 1
       Max: 5
       PotencyDivisor: 20
-  seedless: true # Frontier
-  preventSwabbing: true # Frontier
-  preventClipping: true # Frontier
-  permanentlySeedless: true # Frontier
-
+  seedless: false # Frontier
+  preventSwabbing: false # Frontier
+  preventClipping: false # Frontier
+  permanentlySeedless: false # Frontier
+  
 - type: seed
   id: rice
   name: seeds-rice-name
